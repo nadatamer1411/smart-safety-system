@@ -1,0 +1,10 @@
+venv/
+__pycache__/
+*.pyc
+data/images/
+fire_dataset/
+helmet_dataset/
+fire-detection-yolo.v2i.yolov8.zip
+Safety Helmet.v10i.yolov8.zip
+runs/
+*.env

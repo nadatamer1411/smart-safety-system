@@ -1,0 +1,25 @@
+smart-safety-system/
+│
+├── src/
+│   ├── detection/
+│   ├── alerts/
+│   ├── dashboard/
+│   └── utils/
+│
+├── data/
+│   ├── logs.csv
+│   └── images/
+│
+├── models/
+├── app.py
+└── requirements.txt
+
+streamlit run app.py
+python src/detection/test_video.py
+
+للتدريب
+venv\Scripts\activate
+yolo detect train data=helmet_dataset/data.yaml model=yolov8n.pt epochs=3
+
+للتجهيز
+pip install -r requirements.txt
