@@ -11,7 +11,8 @@ from twilio.rest import Client
 # 🔥 إعداد Twilio
 # ==============================
 
-
+account_sid = "AC5ffc21b458a31dc3509dd99d28d7fca3"
+auth_token = "f721f0e3666eaa766d639b0a67294125"
 
 client = Client(account_sid, auth_token)
 
